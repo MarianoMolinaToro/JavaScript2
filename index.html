@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<title>Condiciones Java</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <main>
+    <div class="section1">
+    <img id="interactive-image" class="image-with-border" src="assets/img/image.png">
+    </div>
+
+   <!-- section2 -->
+   <div class="section2">
+    <h1>Selección de Stickers</h1>
+    <div class="image-stickers">
+      <div>
+        <img src="assets/img/img1.png" alt="Imagen 1">
+        <input type="number" id="input1">
+      </div>
+      <div>
+        <img src="assets/img/img2.png" alt="Imagen 2">
+        <input type="number" id="input2">
+      </div>
+      <div>
+        <img src="assets/img/img3.png" alt="Imagen 3">
+        <input type="number" id="input3">
+      </div>
+    </div>
+  
+    <button onclick="verificarSuma()">Verificar</button>
+  
+    <p id="resultado-section2"></p>
+  </div>
+  
+
+<!-- section3 -->
+<div class="section3"> 
+  <h1>Verificación de Password</h1>
+  <div class="selectors">
+  <select id="select1">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+  </select>
+  
+  <select id="select2">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+  </select>
+  
+  <select id="select3">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+  </select>
+  </div>
+  
+  <button onclick="verificarPassword()">Ingresar</button>
+  
+  <p id="resultado-section3"></p>
+  </div>
+  </main>
+  <script src="./script.js"></script> 
+</body>
+</html>
